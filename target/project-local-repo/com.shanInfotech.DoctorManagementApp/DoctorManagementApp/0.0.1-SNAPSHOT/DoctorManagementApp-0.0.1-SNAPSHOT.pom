@@ -52,7 +52,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.shanInfotech.DoctorManagementApp.Main.DoctorMain</mainClass>
+                            <mainClass>com.shanInfotech.DoctorManagementApp.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
@@ -73,7 +73,7 @@
                             <createDependencyReducedPom>false</createDependencyReducedPom>
                             <transformers>
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>com.shanInfotech.DoctorManagementApp.Main.DoctorMain</mainClass>
+                                    <mainClass>com.shanInfotech.DoctorManagementApp.Main</mainClass>
                                 </transformer>
                             </transformers>
                         </configuration>
